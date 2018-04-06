@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Iron Man Resume</title>
+		<link rel="stylesheet" type="text/css" href="static/index.css" >
+
+		<style type="text/css">
+			body{
+				margin: 0;
+
+				text-align: center;
+			}
+
+			header{
+				background: linear-gradient(#4a4a4a, #904949);
+				color: white;
+				height: 100vh;
+			}
+
+
+			.horizontal-list{
+				list-style: none;
+			}
+
+			.horizontal-list li{
+				display: inline-block;
+			}
+
+			#red-link{
+				color: red;
+			}
+			a{
+				color: white;
+			}
+
+
+			#body-header-content{
+				margin-top: 30vh;
+			}
+
+			#body-header-content:hover{
+				background-color: blue;
+			}
+
+			#progress-indicator{
+				height: 50px;
+				/*width: 250px;*/
+				background-color: grey;
+				text-align: left;
+			}
+
+			#progress-indicator span{
+				height: 100%;
+				background-color: black;
+				
+				display: inline-block;
+			}
+
+			.ten-percent{
+				width: 10%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="horizontal-list">
+					<li id="red-link">Home</li>
+					<li>About</li>
+					<li>Work</li>
+					<li>Contact</li>
+
+				</ul>
+			</nav>
+
+			<div id="body-header-content">
+				<h1>I'm Iron Man</h1>
+				<p>
+					I fly in an iron suit, shoot 
+					<span>missiles & bullets</span>
+					<br>
+					I also own Stark Industries
+				</p>
+
+				<ul class="horizontal-list">
+					<li>
+						<a href="http://www.google.com" target="_blank">
+							Yahoo
+						</a>
+					</li>
+
+					<li>
+						<a href="http://www.facebook.com">
+							#deletefacebook
+						</a>
+
+					</li>
+				</ul>
+
+			</div>
+
+		</header>
+
+		<section>
+			<div id="progress-indicator">
+				<span class="ten-percent"></span>
+			</div>
+
+		</section>
+
+
+	</body>
+
+
+</html>
